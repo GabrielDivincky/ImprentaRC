@@ -1,0 +1,440 @@
+
+body	{
+
+	font-family: 'Open Sans', sans-serif;
+	background-color: #4c4f66;
+
+}
+
+
+.navbar	{
+		box-shadow: 2px 2px 5px #000;
+		opacity: 0.9;
+		position: fixed;
+		z-index: 1;
+		width: 100%;
+
+}
+
+#navegacion {
+			padding: 0px;
+
+}
+
+.navbar .navbar-nav .nav-link	{
+								color: #fff;
+								padding: 16px;
+
+}
+
+.navbar .navbar-nav .nav-link:hover	{
+									color: black;
+									background-color: white;
+}			
+
+.navbar-nav .desplegable a{
+						
+						background: rgba(0,174,239,0.5);
+						list-style: none;
+						padding: 5px;
+						display: block;
+						color: black;
+						text-decoration: none;
+}
+
+.navbar-nav .desplegable a:hover{
+							background-color: white;
+								}
+.navbar-nav li .desplegable {
+							display: none;
+						 	position:absolute;
+							min-width: 140px;
+}
+
+.navbar-nav li:hover >ul	{
+							display: block;
+							z-index: 1000;
+							list-style: none;
+}
+
+
+h2	{
+	text-shadow: 1px 1px 5px #909090;
+	font-size:30px;
+	color: white;
+}
+
+.recuadros1{
+			padding: 40px;
+}
+
+.recuadros2{
+			padding: 20px 40px;
+}
+.recuadros1 img{
+				border-radius: 100%;
+				width:70%;
+				margin: auto;			
+				transition: 1s;
+				display: block;
+}
+
+.recuadros2 img{
+				border-radius: 100%;
+				width:70%;
+				margin: auto;			
+				transition: 1s;
+				display: block;
+				
+}
+
+
+
+
+
+.imagenesProduc h3	{
+				background-color: white;
+				color: black;
+				text-align: center;
+				font-size: 15px;
+				padding: 10px;
+				border-radius: 10px;
+				font-weight: bold;
+				width: 70%;
+				margin: auto;
+				margin-top: 30px;
+}
+
+.imagenesProd h3 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.imagenesProd p {
+			text-align: justify;
+			color: white;
+}
+
+.imagenesProd {
+			position: relative;
+		}
+
+.imagenesProd .botonPresupuesto {
+							position: absolute;
+							right: -240px;
+							bottom: 20px;
+}
+
+.seccion2	{
+			background-color: rgba(0,174,239,0.5);
+			
+
+		
+}
+
+
+
+.empresas p {
+			text-align: justify-all;
+			color: white;
+			line-height: 25px;
+}
+
+
+
+.empresas h3 {
+			font-size: 23px;
+			text-align: left;
+			font-style: italic;
+			margin-top: 5px;
+			color: white;
+			font-weight: bold;
+}
+
+
+.parrallax	{
+			background: #fff fixed no-repeat 50% 50%;
+			background-size: cover;
+}
+
+#seccion1 {
+			background-image: url('../imagenes/equipo.jpg');
+			width: 100%;
+}
+
+.miniseccion2 {
+		background: rgba(0,174,239,0.5);
+		color: white;
+}
+
+
+
+
+#formulario	{
+			background-image: url('../imagenes/diseno.jpg');
+}
+
+
+.seccion1 img {
+				border-radius: 100%;
+				width: 60%;
+				margin: auto;
+				transition: 1s;
+				display: block;
+}
+
+
+
+
+.seccion1 {
+			padding: 100px 200px;
+}
+
+
+.footer	{
+		background-color: rgba(0,174,239,0.5);
+		color:white;
+}
+
+
+
+.datos {
+		margin-top: 10px;
+}
+
+.info {
+		text-align: left;
+
+}
+
+.info a {
+		text-decoration: none;
+}
+
+.icon-email {
+			color: white;
+}
+
+.copy	{
+		text-align: center;
+		color: white;
+		background-color: #4c4f66;
+
+
+}
+
+.copy p {
+		margin-bottom: 0px;
+}
+
+
+.disenioGraf {
+				background-image: url(../imagenes/diseGraf.jpg);
+				background-size: cover;
+				height: 450px;
+				opacity: 0.8;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 200px 0;
+
+}
+
+.disenioGraf p {
+				color: 	#FFFAFA;
+				font-size: 20px;
+				text-align: center;
+
+}
+.envio {
+				background-image: url(../imagenes/flete.jpg);
+				background-size: cover;
+				background-position: center;
+				opacity: 0.8;
+				padding: 180px 0;
+}
+
+.envio p {
+				color: #FFFAFA;
+				font-size: 20px;
+				text-align: center;
+
+}	
+
+.digital {
+			background-image: url(../imagenes/digital.jpg);
+			background-size: cover;
+			height: auto;
+			padding: 180px 20px;
+			text-align: justify;
+			color: rgba(0,174,239,0.5);
+			filter: opacity(0.9);
+}		
+
+	
+
+.offset {
+			background-image: url(../imagenes/offset.jpg);
+			/*<a href="https://www.freepik.es/fotos-vectores-gratis/personas">Foto de personas creado por bearfotos - www.freepik.es</a>*/
+			background-size: cover;
+			height: auto;
+			padding: 180px 20px;
+			color:rgba(0,174,239,0.7);
+			text-align: justify;
+}			
+
+
+
+
+
+.FormPresu {
+			background: #4c4f66;
+			padding: 30px;
+			border-radius: 5%;
+			width: 60%;
+			margin: 70px auto;
+
+}
+
+.col-form-label {
+				text-align: center;
+}
+
+
+.titulo {
+	color: white;
+}
+
+.error {
+		color: red;
+}
+
+.arriba{
+		color: white;
+		text-decoration: none;
+		display: block;
+		float: right;
+}
+
+
+/*RESPONSIVE DESIGN */
+
+
+@media screen and (max-width: 658px){
+
+.disenioGraf {
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+	 }
+
+	.FormPresu {
+			background: #4c4f66;
+			padding: 30px;
+			border-radius: 5%;
+			width: 100%;
+			margin: 60px;
+}
+
+.envio p {
+				color: #FFFAFA;
+				font-size: 20px;
+				padding-right: 5px;
+
+}
+
+
+
+.imagenesProd .botonPresupuesto {
+							position: absolute;
+							right: 20px;
+							bottom: 0px;
+							margin-top: 40px;
+
+}
+
+.offset {
+			background-image: url(../imagenes/offset.jpg);
+			/*<a href="https://www.freepik.es/fotos-vectores-gratis/personas">Foto de personas creado por bearfotos - www.freepik.es</a>*/
+			background-size: cover;
+			height: auto;
+			padding: 180px 20px;
+			color:rgba(0,174,239,1);
+			text-align: justify;
+}			
+
+#seccion1 {
+			background-image: url('../imagenes/equipo.jpg');
+			padding: 0;
+			width: 100%;
+}
+
+.navbar-brand{
+				text-align: center;
+
+
+}
+
+#navbarNav{
+			text-align: center;
+			color: red;
+}
+
+.seccion1 {
+			padding: 100px 30px;
+}
+
+}
+
+@media screen and (min-width: 658px) and (max-width: 772px){
+
+.imagenesProd {
+			position: relative;
+		}
+
+.imagenesProd .botonPresupuesto {
+							position: absolute;
+							right: -5px;
+							bottom: -60px;
+}
+
+.seccion1 {
+			padding: 100px 100px;
+}
+}
+
+@media screen and (min-width: 772px) and (max-width: 1001px){
+
+
+
+.imagenesProd .botonPresupuesto {
+							position: absolute;
+							right: -5px;
+							bottom: -80px;
+}
+
+.seccion1 {
+			padding: 100px 150px;
+}
+
+}
+
+@media screen and (min-width: 1002px) and (max-width: 1391px){
+
+.imagenesProd .botonPresupuesto {
+							position: absolute;
+							right: -5px;
+							bottom: -80px;
+}
+
+.seccion1 {
+			padding: 100px 150px;
+}
+
+}
